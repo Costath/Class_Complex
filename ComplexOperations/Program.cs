@@ -29,6 +29,10 @@ namespace ComplexOperations
 
             Console.WriteLine($"{c1} * {c2} = {c1 * c2}");
             Console.WriteLine($"{c1} / {c2} = {c1 / c2}");
+
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine($"c1 = {c1}\n-c1 = {-c1}");
         }
     }
 }

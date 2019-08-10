@@ -83,5 +83,12 @@ namespace ComplexOperations
 
             return new Complex(Convert.ToInt32(real), Convert.ToInt32(imaginary));
         }
+        public static Complex operator -(Complex element)
+        {
+            int real = -element.Real;
+            int imaginary = -element.Imaginary;
+
+            return new Complex(real, imaginary);
+        }
     }
 }
